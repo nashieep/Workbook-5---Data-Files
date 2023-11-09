@@ -7,4 +7,4 @@ let purchasedOptions = [
     return currentTotal + arrayElement.price;
     }
     let sum = purchasedOptions.reduce(getTotalCost, 0);
-    
+    console.log(sum)
